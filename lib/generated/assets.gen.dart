@@ -17,8 +17,24 @@ class $AssetsSvgGen {
   /// File path: assets/svg/arrow-right.svg
   SvgGenImage get arrowRight => const SvgGenImage('assets/svg/arrow-right.svg');
 
+  /// File path: assets/svg/back-arrow.svg
+  SvgGenImage get backArrow => const SvgGenImage('assets/svg/back-arrow.svg');
+
+  /// File path: assets/svg/calendar.svg
+  SvgGenImage get calendar => const SvgGenImage('assets/svg/calendar.svg');
+
+  /// File path: assets/svg/edit.svg
+  SvgGenImage get edit => const SvgGenImage('assets/svg/edit.svg');
+
+  /// File path: assets/svg/plus.svg
+  SvgGenImage get plus => const SvgGenImage('assets/svg/plus.svg');
+
+  /// File path: assets/svg/remove.svg
+  SvgGenImage get remove => const SvgGenImage('assets/svg/remove.svg');
+
   /// List of all assets
-  List<SvgGenImage> get values => [arrowRight];
+  List<SvgGenImage> get values =>
+      [arrowRight, backArrow, calendar, edit, plus, remove];
 }
 
 class Assets {
